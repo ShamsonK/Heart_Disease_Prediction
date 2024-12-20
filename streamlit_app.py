@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # Load the dataset
 @st.cache_data
 def load_data():
-    csv_file_path = r"C:\Users\Samson\Desktop\Heart prediction\Heart_Disease_Prediction.csv"
+    csv_file_path = "Heart_Disease_Prediction.csv"
     df = pd.read_csv(csv_file_path)
     return df
 
